@@ -14,6 +14,7 @@ import { ChildComponent } from './child/child.component';
 import { PgstaffComponent } from './pgstaff/pgstaff.component';
 import { PgadmissionComponent } from './pgadmission/pgadmission.component';
 import { PgcoursesComponent } from './pgcourses/pgcourses.component';
+import { GitComponent } from './git/git.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { PgcoursesComponent } from './pgcourses/pgcourses.component';
     ChildComponent,
     PgstaffComponent,
     PgadmissionComponent,
-    PgcoursesComponent
+    PgcoursesComponent,
+    GitComponent
   ],
   imports: [
     BrowserModule,
